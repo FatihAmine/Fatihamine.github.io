@@ -19,18 +19,3 @@ const sr = ScrollReaveal({
     reset: true
 })
 
-sr.reaveal('.home-text',{delay:200, origin:''})
-
-
-
-ScrollReveal().reveal('.item', { delay: 250 });
-ScrollReveal().reveal('.item', { duration: 500 });
-ScrollReveal().reveal('.item', { delay: 375, reset: true });
-
-// Is the same as...
-
-ScrollReveal().reveal('.item', {
-    delay: 375,
-    duration: 500,
-    reset: true
-});
